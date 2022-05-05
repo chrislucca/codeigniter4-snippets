@@ -1,0 +1,36 @@
+{
+    "name": "codeigniter4-snippets",
+    "displayName": "codeigniter4 snippets",
+    "description": "codeigniter4 snippets",
+    "version": "0.0.2",
+    "icon": "assets/logo.jpg",
+    "publisher": "chris",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "keywords": [
+        "codeigniter4",
+        "snippets",
+        "php"
+    ],
+    "galleryBanner": {
+        "color": "#549BFF",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chrislucca/codeigniter4-snippets.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "php",
+            "path": "./snippets/snippets.json"
+        }]
+    },
+    "scripts": {
+        "build": "vsce package -o chrislucca.codeigniter4-snippets-$npm_package_version.vsix"
+    }
+}
